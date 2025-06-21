@@ -36,3 +36,34 @@ var2 = set(lista2)
 
 print(num1)
 print(var2)
+
+
+#----------
+lista3 = [1,2,32,4,5]
+
+variavel_set = set(lista3)
+
+print(variavel_set)
+#Remove um elemento do set, falha se nao houver.
+variavel_set.remove(32)
+#Add só pega um elemento de cada vez ?
+variavel_set.add(91)
+
+lista_insercao_set =[88,99,11,00,12,21,64,21,64]
+
+for i in lista_insercao_set:
+    variavel_set.add(i)
+
+print(variavel_set)
+
+
+#------
+frutas = ['maca', 'banana', 'manga' ,'laranja']
+
+frutas_set = set(frutas)
+frutas_set.add('uva')
+print(f' Adicionamos a fruta anterior, sua lista agora contem : {frutas_set}')
+frutas_set.remove('banana')
+print(f' Removemos a fruta anterior, sua lista agora contem : {frutas_set}')
+frutas_set.discard('manga')
+print(f' Descartamos a fruta anterior, sua lista agora contem : {frutas_set}') 
