@@ -18,6 +18,7 @@ dados_aluno.update({'endereco': 'Setor Brasilia'})
 print(dados_aluno)
 
 
+
 #buscando via Get
 print(dados_aluno.get('Setor', 'Nao encontrado'))
 
