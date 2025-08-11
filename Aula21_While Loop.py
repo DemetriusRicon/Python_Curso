@@ -1,9 +1,11 @@
 nome = 'Demetrius Ricon'
-numero = 0
+numero = 5
 
 
 while numero <=  10:
+    numero += 1
     print (nome)
+    
 
 
 valor = 100

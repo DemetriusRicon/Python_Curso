@@ -21,9 +21,9 @@ print(mensagem.lower())
 print(mensagem.upper())
 print(mensagem.capitalize())
 print(mensagem.swapcase())
-print(mensagem.strip()) #Remove espalos extras no inicio e no fim da variavel
-print(mensagem.rstrip()) #Remove espalos extras no inicio da variavel
-print(mensagem.lstrip()) #Remove espalos extras no fim da variavel
+print(mensagem.strip()) #Remove espacos extras no inicio e no fim da variavel
+print(mensagem.rstrip()) #Remove espacos extras no inicio da variavel
+print(mensagem.lstrip()) #Remove espacos extras no fim da variavel
 print(mensagem.replace('Minas Gerais', 'Sao Paulo')) #Substitui as palavras
 print(mensagem.find('G')) # Index da posição
 print(mensagem.count("i"))  # total de ocorrencias
@@ -48,4 +48,5 @@ replace()	Substitui um texto por outro
 find()	Encontra a posição de um texto
 count()	Conta quantas vezes aparece
 split()	Divide em uma lista
-join()	Junta elementos em string'''
+join()	Junta elementos em string
+'''
